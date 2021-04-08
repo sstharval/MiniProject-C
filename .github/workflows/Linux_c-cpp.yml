@@ -17,3 +17,4 @@ jobs:
       run: gcc hello.c -o hello.exe
     - name: Run
       run: ./hello.exe
+      
