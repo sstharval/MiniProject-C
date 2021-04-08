@@ -1,7 +1,7 @@
 # SDLC Activity Based Learning
-![Banner](https://github.com/arc-arnob/LnT_Mini_Project/blob/main/1_Requirements/banner.png)
+//![Banner](https://github.com/arc-arnob/LnT_Mini_Project/blob/main/1_Requirements/banner.png)//
 
-Visit [Pages for Report -optional](using github.io option)
+//Visit [Pages for Report -optional](using github.io option)//
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
@@ -20,7 +20,7 @@ Folder             | Description
 
 SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`256131` | Arnob Chowdhury  | Feature A, B etc    | X No     | X No   |X No   |X No     
+`256131` | Isha Prabhu  | Feature A, B etc    | X No     | X No   |X No   |X No     
    
 
 ## Challenges Faced and How Was It Overcome
@@ -30,9 +30,9 @@ SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 3. ...
 4. ...
 
-## Learning Resources
+//## Learning Resources
 1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 2. [markdownBasics](https://guides.github.com/features/mastering-markdown/)
 3. [git inspector](https://github.com/ejwa/gitinspector.git)
-4. [github workflow](https://docs.github.com/en/actions/learn-github-action)
+4. [github workflow](https://docs.github.com/en/actions/learn-github-action)//
 
