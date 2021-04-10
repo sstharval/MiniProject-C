@@ -1,4 +1,6 @@
 # SDLC Activity Based Learning
+![image](https://user-images.githubusercontent.com/67497698/114258604-59516880-99e5-11eb-935c-9aab7719a7b4.png)
+
 
 
 
