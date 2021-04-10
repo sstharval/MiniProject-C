@@ -17,6 +17,8 @@
        tickets on phone, there also waiting for minutes to complete the booking process. 
        But now with just a few clicks, your ticket is booked. Travelers just have to enter 
        minimum information to book tickets. It’s so easy now to book flights!
+       
+       
 **4.** This topic was chosen because it gives me an opportunity to enhance my C programming 
        understanding and apply SDLC concepts. 
 
