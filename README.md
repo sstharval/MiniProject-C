@@ -1,7 +1,6 @@
 # SDLC Activity Based Learning
 
-![airline-reservation-system final](https://user-images.githubusercontent.com/67497698/114267585-29708800-9a1a-11eb-97c6-8db7ab3219db.jpg)
-
+![airline-reservation-system final1](https://user-images.githubusercontent.com/67497698/114267685-c59a8f00-9a1a-11eb-9fd3-a21bff955fd8.jpg)
 
 
 
