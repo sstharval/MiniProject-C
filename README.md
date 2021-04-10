@@ -1,7 +1,5 @@
 # SDLC Activity Based Learning
-![Airlinepic](https://user-images.githubusercontent.com/67497698/114258927-d67ddd00-99e7-11eb-972d-8f2463e8ce01.jpg)
-
-
+![Airlinepic]
 
 
 
