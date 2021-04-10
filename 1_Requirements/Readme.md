@@ -3,6 +3,8 @@
 1.An airline reservation system (ARS) is part of the passenger
   service systems (PSS), which are applications supporting the direct contact with
   the passenger.
+  
+  
 2.ARS eventually evolved into the computer reservations system (CRS). A
   computer reservation system is used for the reservations of a particular airline and
   interfaces with a global distribution system (GDS) which supports travel agencies
