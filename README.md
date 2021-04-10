@@ -1,8 +1,5 @@
 # SDLC Activity Based Learning
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
-
-
+![airplane](https://user-images.githubusercontent.com/67497698/114259171-cd8e0b00-99e9-11eb-990b-213ef2e154a3.jpg)
 
 
 
