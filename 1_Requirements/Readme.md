@@ -69,6 +69,12 @@ ARS offer a range of benefits, here are just a few of them:
 5. Communication and other Services
 
 
+ This project builds airline reservation system with certain features, other features can also be added
+ for instance adding payement options, multi-lingual system, automatic communication, advanced reporting,
+ mobile management and many more.
+ 
+
+
 
 ![BasicStructure](https://user-images.githubusercontent.com/67497698/114314276-a3d30200-9b17-11eb-9a0a-90187715fcd1.png)
 
@@ -78,14 +84,9 @@ ARS offer a range of benefits, here are just a few of them:
 
 
 
-### Explanation:
-
-
-
-
-
-
 ## SWOT ANALYSIS:
+
+
 
 
 # 4W&#39;s and 1&#39;H:
