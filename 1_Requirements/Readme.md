@@ -25,8 +25,7 @@
 
 
 ### Benefits:
-ARS offer a range of benefits, here are 
-just a few of them:
+ARS offer a range of benefits, here are just a few of them:
 
 1.Easy to book tickets
 
@@ -45,15 +44,34 @@ just a few of them:
 ## Defining Our System Basic Requirements:
 1.Reservation of seat
 
-2.Display of records
+2.Save record to file 
 
-3.Cancellation of records
+3.Display of records
 
-4.Exiting from the screen 
+4.Cancellation of records
+
+5.Update Record
+
+6.Exiting from the screen 
 
 
 
 ### Certain assumptions:
+
+1. Maximum number of seats booked in this system is 100 (We can expand whenever required)
+
+2. System will take your passport number, your name, email address and destination for reservation
+
+3. Analytic System is already present
+
+4. ARS interfaces with a Global Distribution System (GDS)
+
+5. Communication and other Services
+
+
+
+
+
 
 
 
