@@ -29,17 +29,27 @@ ARS offer a range of benefits, here are
 just a few of them:
 
 1.Easy to book tickets
+
 2.Saves time and money
+
 3.Send automated tickets to the customer by mail
+
 4.Easy cancellation and Refund Policies
 
 
-## Cost and Features with Time:
-| Time    | Feature | Cost |
-| -----   | -----   | ----- |
-|14 April
+## Ageing -Time & Feature evolution
+| Time    | Feature |
+| -----   | -----   | 
+| NA      |         |
 
-## Defining Our System:
+## Defining Our System Basic Requirements:
+1.Reservation of seat
+
+2.Display of records
+
+3.Cancellation of records
+
+4.Exiting from the screen 
 
 
 
@@ -48,6 +58,7 @@ just a few of them:
 
 
 ### Explanation:
+
 
 
 
