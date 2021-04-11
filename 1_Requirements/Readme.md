@@ -28,10 +28,10 @@
 ARS offer a range of benefits, here are 
 just a few of them:
 
-1._
-2._
-3._
-4._
+1.Easy to book tickets
+2.Saves time and money
+3.Send automated tickets to the customer by mail
+4.Easy cancellation and Refund Policies
 
 
 ## Cost and Features with Time:
@@ -40,6 +40,9 @@ just a few of them:
 |14 April
 
 ## Defining Our System:
+
+
+
 ### Certain assumptions:
 
 
