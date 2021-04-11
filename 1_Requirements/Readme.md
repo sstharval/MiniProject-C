@@ -70,6 +70,9 @@ ARS offer a range of benefits, here are just a few of them:
 
 
 
+![BasicStructure](https://user-images.githubusercontent.com/67497698/114314276-a3d30200-9b17-11eb-9a0a-90187715fcd1.png)
+
+
 
 
 
