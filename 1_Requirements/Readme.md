@@ -81,10 +81,11 @@ ARS offer a range of benefits, here are just a few of them:
 
 
 
-
-
-
 ## SWOT ANALYSIS:
+
+![SWOT](https://user-images.githubusercontent.com/67497698/114317471-e13e8c00-9b25-11eb-90ac-5aaa955280ff.png)
+
+
 
 
 
@@ -92,20 +93,30 @@ ARS offer a range of benefits, here are just a few of them:
 # 4W&#39;s and 1&#39;H:
 
 ## Who:
+-:For small to large travel and ticket agencies 
 
 
 ## What:
-
+-:Many travel and ticket agencies that are not able to afford high ARS Management Systems 
+Without log in page agencies can easily reserve or cancel their customers booking
 
 ## When:
+-:In 1978, due to the economy and the emergence of new types of jets, government stopped controlling fares, prices, and routes, 
+as well as market entry. That made the airline industry a free market new players could enter while existing carriers now could
+set their own prices and establish new routes.Seeing the opportunities, airlines started to share CRSs with non-competing carriers,
+opening access to multiple airline’s inventories via a single terminal. Carriers that participated in distribution through CRS had 
+to pay a commission to be available through the platform. Those events in the market led to the emergence of a new term: 
+Global Distribution System or GDS.Airlines now gained over 60 percent of bookings from travel and ticket agencies.
 
 ## Where:
-
+-:This system is international
 
 ## How:
 
 
+
 # Detail requirements:
+
 ## High Level Requirements: 
 
 ##  Low level Requirements:
