@@ -5,7 +5,8 @@
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option)
 |---------|--------------|-----------|------------------
-[![C/C++ CI](https://github.com/IshaPrabhu-260025/MiniProject-C/actions/workflows/c-build.yml/badge.svg)](https://github.com/IshaPrabhu-260025/MiniProject-C/actions/workflows/c-build.yml)|[![Static Check](https://github.com/IshaPrabhu-260025/MiniProject-C/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/IshaPrabhu-260025/MiniProject-C/actions/workflows/cppcheck.yml)  [![Codacy Badge](https://app.codacy.com/project/badge/Grade/21c5cae1b5844158b9eb3d4c80125c89)](https://app.codacy.com/gh/IshaPrabhu-260025/MiniProject-C/dashboard?branch=main=Badge_Grade) | To be added| To be added
+[![C/C++ CI](https://github.com/IshaPrabhu-260025/MiniProject-C/actions/workflows/c-build.yml/badge.svg)](https://github.com/IshaPrabhu-260025/MiniProject-C/actions/workflows/c-build.yml)|[![Static Check](https://github.com/IshaPrabhu-260025/MiniProject-C/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/IshaPrabhu-260025/MiniProject-C/actions/workflows/cppcheck.yml)  [![Codacy Badge](https://app.codacy.com/project/badge/Grade/21c5cae1b5844158b9eb3d4c80125c89)](https://app.codacy.com/gh/IshaPrabhu-260025/MiniProject-C/dashboard?branch=main=Badge_Grade) | To be added| [![git inspector CI](https://github.com/IshaPrabhu-260025/MiniProject-C/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/IshaPrabhu-260025/MiniProject-C/actions/workflows/gitinspector.yml)
+
  
 
 ## Folder Structure
