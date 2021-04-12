@@ -17,11 +17,11 @@ struct IndiGo_airline
 void details()
 {
 	printf("\n\t Enter your passport number:");
-	gets(stream->passport); fflush(stdin);   //reads a line from stdin and stores it into the string pointed
+	fgets(stream->passport,6,stdin);    //reads a line from stdin and stores it into the string pointed
 	printf("\n\t Enter your  name:");
-	gets(stream->name); fflush(stdin);
+	fgets(stream->name,15,stdin); 
 	printf("\n\t Enter your email address:");
-	gets(stream->email); fflush(stdin);
+	fgets(stream->email,15,stdin); 
     printf("\n\t Enter the Destination : ");
-    gets(stream->destination); fflush(stdin);
+    fgets(stream->destination,15,stdin);
 }
