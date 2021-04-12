@@ -95,7 +95,7 @@ void cancel()
 	system("cls");
 	char passport[6];
 	printf("\n\n Enter passort number to delete record?:");
-	gets(passport); fflush(stdin);
+	fgets(passport,6,stdin);
 	if (strcmp(begin->passport, passport) == 0)
 	{
 		dummy = begin;
@@ -114,7 +114,6 @@ void cancel()
 			stream->following = stream->following->following;
 			free(dummy);
 			printf("has been deleted ");
-			getch();
 			return;
 		}
 		stream = stream->following;
