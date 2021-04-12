@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include"Airlines.h"
+#include"../inc/Airlines.h"
 struct IndiGo_airline
 {
 	char passport[6];
