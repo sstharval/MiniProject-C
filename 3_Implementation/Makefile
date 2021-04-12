@@ -11,7 +11,7 @@ src/Airlines2.c\
 src/Airlines3.c\
 
 # All include folders with header files
-INC	= -Iinc\Airlines.h
+INC	= inc/Airlines.h
 
 # Project Output name
 PROJECT_OUTPUT= $(BUILD)/$(PROJECT_NAME).out
