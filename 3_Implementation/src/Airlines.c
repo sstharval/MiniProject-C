@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-#include"Airlines.h"
+#include"../inc/Airlines.h"
 
 
 struct IndiGo_airline
