@@ -16,5 +16,6 @@ jobs:
       run: gcc Airlines.h Airlines.c Airlines1.c Airlines2.c Airlines3.c -o OUTPUT.exe
     - name: Run
       run: .\OUTPUT.exe
+      
 
 
