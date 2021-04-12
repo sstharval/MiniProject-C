@@ -11,7 +11,7 @@ src/Airlines2.c\
 src/Airlines3.c\
 
 
-INC_H=inc
+INC_H=inc/Airlines.h
 
 # Project Output name
 PROJECT_OUTPUT= $(BUILD)/$(PROJECT_NAME).out
