@@ -3,6 +3,10 @@
 ![airline-reservation-system final1](https://user-images.githubusercontent.com/67497698/114267685-c59a8f00-9a1a-11eb-9fd3-a21bff955fd8.jpg)
 
 
+Build | Code Quality | Unity | [Git Inspector](using github.io option)
+|---------|--------------|-----------|------------------
+[![C/C++ CI](https://github.com/IshaPrabhu-260025/MiniProject-C/actions/workflows/c-build.yml/badge.svg)](](https://github.com/arc-arnob/LnT_Mini_Project/actions/workflows/c-cpp.yml)
+
 
 
 
