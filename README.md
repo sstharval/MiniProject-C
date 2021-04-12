@@ -5,8 +5,7 @@
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option)
 |---------|--------------|-----------|------------------
-[![C/C++ CI](https://github.com/IshaPrabhu-260025/MiniProject-C/actions/workflows/c-build.yml/badge.svg)](](https://github.com/arc-arnob/LnT_Mini_Project/actions/workflows/c-cpp.yml)
-
+[![C/C++ CI](https://github.com/IshaPrabhu-260025/MiniProject-C/actions/workflows/c-build.yml/badge.svg)] (https://github.com/IshaPrabhu-260025/MiniProject-C/actions/workflows/c-build.yml/badge.svg)
 
 
 
