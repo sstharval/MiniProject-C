@@ -13,9 +13,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: build
-      run: gcc Airlines.h Airlines.c Airlines1.c Airlines2.c Airlines3.c -o OUTPUT.exe
-    - name: Run
-      run: .\OUTPUT.exe
+      run: gcc OUTPUT.exe
+
       
 
 
