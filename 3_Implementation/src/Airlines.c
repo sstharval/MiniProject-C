@@ -68,7 +68,7 @@ void savefile()
 	{
 		printf("\n Error in opening file!");
 		return;
-		Sleep(800);
+		
 	}
 	stream = begin;
 	while (stream)
@@ -102,7 +102,6 @@ void cancel()
 		begin = begin->following;
 		free(dummy);
 		printf(" booking has been deleted");
-		Sleep(800);
 		return;
 
 	}
@@ -116,7 +115,6 @@ void cancel()
 			free(dummy);
 			printf("has been deleted ");
 			getch();
-			Sleep(800);
 			return;
 		}
 		stream = stream->following;
