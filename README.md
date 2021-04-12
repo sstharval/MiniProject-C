@@ -5,7 +5,7 @@
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option)
 |---------|--------------|-----------|------------------
-[![C/C++ CI](https://github.com/IshaPrabhu-260025/MiniProject-C/actions/workflows/c-build.yml/badge.svg)] 
+[![C/C++ CI](https://github.com/IshaPrabhu-260025/MiniProject-C/actions/workflows/c-build.yml/badge.svg)] | [![Static Check](https://github.com/IshaPrabhu-260025/MiniProject-C/actions/workflows/cppcheck.yml/badge.svg)] 
 
 
 
