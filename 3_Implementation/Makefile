@@ -10,8 +10,8 @@ src/Airlines1.c\
 src/Airlines2.c\
 src/Airlines3.c\
 
-
-INC_H=inc/Airlines.h
+# All include folders with header files
+INC	= -Iinc\Airlines.h
 
 # Project Output name
 PROJECT_OUTPUT= $(BUILD)/$(PROJECT_NAME).out
