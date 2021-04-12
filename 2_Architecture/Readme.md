@@ -18,7 +18,7 @@
 
 * Usecase Diagram :
 
-![Use Case (1)](https://user-images.githubusercontent.com/67497698/114451496-ef0f1280-9bf4-11eb-9af1-529350fff2cd.png)
+![Use Case (2)](https://user-images.githubusercontent.com/67497698/114451626-149c1c00-9bf5-11eb-96a5-94960aa6cdca.png)
 
 
 
