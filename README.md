@@ -5,7 +5,7 @@
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option)
 |---------|--------------|-----------|------------------
-[![C/C++ CI](https://github.com/IshaPrabhu-260025/MiniProject-C/actions/workflows/c-build.yml/badge.svg)](https://github.com/IshaPrabhu-260025/MiniProject-C/actions/workflows/c-build.yml)|[![Static Check](https://github.com/IshaPrabhu-260025/MiniProject-C/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/IshaPrabhu-260025/MiniProject-C/actions/workflows/cppcheck.yml) | [![Codacy Badge](https://app.codacy.com/gh/IshaPrabhu-260025/MiniProject-C/dashboard)](https://app.codacy.com/gh/IshaPrabhu-260025/MiniProject-C/dashboard) | To be added| 
+[![C/C++ CI](https://github.com/IshaPrabhu-260025/MiniProject-C/actions/workflows/c-build.yml/badge.svg)](https://github.com/IshaPrabhu-260025/MiniProject-C/actions/workflows/c-build.yml)|[![Static Check](https://github.com/IshaPrabhu-260025/MiniProject-C/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/IshaPrabhu-260025/MiniProject-C/actions/workflows/cppcheck.yml)    [![Codacy Badge](https://app.codacy.com/gh/IshaPrabhu-260025/MiniProject-C/dashboard)](https://app.codacy.com/gh/IshaPrabhu-260025/MiniProject-C/dashboard) | To be added| To be added
  
 
 ## Folder Structure
