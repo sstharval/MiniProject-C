@@ -62,6 +62,6 @@ void main()
 			printf("\n\n\t PLEASE CHOOSE FROM 1-4");
 			printf("\n\n\t Do not forget to chose from 1-4");
 		}
-		getch(); // will hold the above display untill a key is pressed
+		
 	} while (choice != 4);
 }
