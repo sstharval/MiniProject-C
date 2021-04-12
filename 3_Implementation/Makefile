@@ -36,10 +36,7 @@ run:$(PROJECT_NAME)
 doc:
 	make -C ./documentation
 
-# Build and run the unit tests
-test:$(BUILD)
-	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) $(INCLUDE_LIBS)
-	./$(TEST_OUTPUT)
+
 
 # Remove all the built files, invoke by `make clean`
 clean:
