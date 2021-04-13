@@ -1,54 +1,70 @@
 #include "Airlines.h"
 #include "unity.h"
-
-
-/* Modify these two lines according to the project */
-
-#define PROJECT_NAME    "ARS"
-
-/* Prototypes for all the test functions */
-void test_reserve(void);
-void test_cancel(void);
-void test_display(void);
-void test_details(void);
-void test_savefile(void);
+#include<string.h>
+#include "unity_internals.h"
 
 
 /* Required by the unity test framework */
-void setUp(){}
+void setUp()
+{
+}
 /* Required by the unity test framework */
-void tearDown(){}
+void tearDown()
+{
+}
 
-struct IndiGo_airline
+
+	struct IndiGo_airline
 {
 	char passport[6];
 	char name[15];
     char destination[15];
-    	int seat_num;
-	 char email[15];
-	struct IndiGo_airline *following;
+	int seat_num;
+	char email[15];
+	
 }
-*begin, *stream;
+ *stream;
 
-struct IndiGo_airline *dummy;
 
-int x=101;
- 
-void test_reserve(void) 
+
+void test_details(void)
 {
+strcpy(stream->passport,"1234");
+strcpy(stream->name,"isha");
+strcpy(stream->email,"ishavinita@hmail.com");
+strcpy(stream->destination,"Singapore");
+stream->seat_num=101;
+int num=1;
 
-  TEST_ASSERT_EQUAL_STRING("\n\t\t Seat Full.",stream->seat_num);
+TEST_ASSERT_EQUAL_STRING("1234",stream->passport);
+TEST_ASSERT_EQUAL_STRING("isha",stream->name);
+TEST_ASSERT_EQUAL_STRING("1234",stream->passport);
+TEST_ASSERT_EQUAL_STRING("ishavinita@gmail.com",stream->email);
+TEST_ASSERT_EQUAL_STRING("Singapore",stream->destination);
+
 
 }
+
+
+    
+
+
+
+
 
 int main()
 {
-/* Initiate the Unity Test Framework */
-  UNITY_BEGIN();
+    /* Initiate the Unity Test Framework */
+    UNITY_BEGIN();
 
-/* Run Test functions */
-  RUN_TEST(test_reserve);
+    /* Run Test functions */
+    RUN_TEST(test_details);
+    
 
-  /* Close the Unity Test Framework */
-  return UNITY_END();
+    /* Close the Unity Test Framework */
+    return UNITY_END();
 }
+
+
+
+
