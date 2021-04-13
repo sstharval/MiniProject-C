@@ -10,7 +10,7 @@ struct IndiGo_airline
 	char name[15];
     char destination[15];
 	int seat_num;
-	char email[15];
+	char email[25];
 	struct IndiGo_airline *following;
 }
 *begin, *stream;
