@@ -1,7 +1,7 @@
-#include "Airlines.h"
-#include "unity.h"
+#include "../inc/Airlines.h"
+#include "../unity/unity.h"
 #include<string.h>
-#include "unity_internals.h"
+#include "../unity/unity_internals.h"
 
 
 
