@@ -93,12 +93,12 @@ ARS offer a range of benefits, here are just a few of them:
 # 4W&#39;s and 1&#39;H:
 
 ## Who:
--:For small to large travel and ticket agencies 
+-:For small to large travel and ticket agencies. 
 
 
 ## What:
--:Many travel and ticket agencies that are not able to afford high ARS Management Systems 
-Without log in page agencies can easily reserve or cancel their customers booking
+-:Many travel and ticket agencies that are not able to afford high ARS Management Systems. 
+Without log in page agencies can easily reserve or cancel their customers booking.
 
 ## When:
 -:In 1978, due to the economy and the emergence of new types of jets, government stopped controlling fares, prices, and routes, 
@@ -109,17 +109,40 @@ to pay a commission to be available through the platform. Those events in the ma
 Global Distribution System or GDS.Airlines now gained over 60 percent of bookings from travel and ticket agencies.
 
 ## Where:
--:This system is international
+-:This system is present internationally.
 
 ## How:
-
+-: Without ARS customers had to wait in line for seat reservation. ARS has improved the management of seat reservation/cancellation and maintaining the records.Airline Reservation System shoots up the sales of an airline company and gives a competitive edge.One of the primary reason for choosing airline reservation system is to increase the number of bookings of the flight ticket.
 
 
 # Detail requirements:
 
+
 ## High Level Requirements: 
+| ID | Description | Category | Status | 
+| ----- | ----- | ------- | ---------|
+| HR01 | User shall be able to book their seats | Techincal | TBD-S1 | 
+| HR02 | User shall be able to view all reservations | Techincal | TBD-S1 |
+| HR03 | User shall be able to cancel reservation  | Techincal | TBD-S1 |
+| HR04 | User shall be able to produce new reservation and update | Techincal | TBD-S1 |
+| HR05 | User shall be able to save records and read from a file | Techincal | TBD-S1 |
+| HR06 | User shall be able to easily exit from screen| Techincal | TBD-S1 |
+| HR07 | User shall be able to easily book without log in page| Techincal | TBD-S1 |
+
+
+
 
 ##  Low level Requirements:
  
+| ID | Description | Category | Status (Implemented/Future) |
+| ------ | --------- | ------ | ----- |
+| LR01 | First page will display options 1,2,3,4 for reservation,cancellation,Display & exit respectively,any number or characters other than 1-4 are invalid |Techincal| TBD-S1|
+| LR02 | Able to book with help of passport number,full name,email address, and destination | Techincal|TBD-S1 |
+| LR03 | Their seat will be alloted by the system itself | Techincal| TBD-S1 |
+| LR04 | Able to display record with all information given during reserving seat| Techincal | TBD-S1 |
+| LR05 | During cancellation only passport number is needed but it should be valid otherwise system will display invalid passport number| Techincal | TBD-S1 |
+| LR06 | System will save records to file and also able to cancel record if reservation is cancelled  | Techincal| TBD-S1 |
+| LR05 | Exit screen easily | HR05 | TBD-S1 |
+| LR06 | After exiting, message is prompted that all records are saved | Techincal| TBD-S1 |
 
 
