@@ -22,8 +22,6 @@ void UNITY_OUTPUT_CHAR(int);
 #define UNITY_FAIL_AND_BAIL   { Unity.CurrentTestFailed  = 1; UNITY_OUTPUT_FLUSH(); TEST_ABORT(); }
 #define UNITY_IGNORE_AND_BAIL { Unity.CurrentTestIgnored = 1; UNITY_OUTPUT_FLUSH(); TEST_ABORT(); }
 #define RETURN_IF_FAIL_OR_IGNORE if (Unity.CurrentTestFailed || Unity.CurrentTestIgnored) TEST_ABORT()
-void setUp (void) {} /* Is run before every test, put unit init calls here. */
-void tearDown (void) {} /* Is run after every test, put unit clean-up calls here. */
 
 struct UNITY_STORAGE_T Unity;
 
