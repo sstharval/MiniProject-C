@@ -14,7 +14,7 @@ src/Airlines3.c\
 TEST_SRC = src/Airlines.c\
 src/Airlines1.c\
 src/Airlines3.c\
-test/test.c\
+test/Test_Airlines.c\
 unity/unity.c\
 
 # All include folders with header files
