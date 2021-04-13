@@ -9,9 +9,12 @@ SRC = src/Airlines.c\
 src/Airlines1.c\
 src/Airlines2.c\
 src/Airlines3.c\
-unity/unity.c
 
-$TEST_SRC=test/Test_Airlines.c
+
+TEST_SRC = test/Test_Airlines.c \
+unity/unity.c 
+INC_H = inc
+INC_T = unity
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
@@ -48,8 +51,8 @@ doc:
 	make -C ./documentation
 
 # Build and run the unit tests
-test:$(BUILD)
-	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) $(INCLUDE_LIBS)
+test:
+	gcc -I $(INC_H) -I $(INC_T) $(TEST_SRC) $(SRC) -o $(TEST_OUTPUT) $(INCLUDE_LIBS)
 	./$(TEST_OUTPUT)
 
 
