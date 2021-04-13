@@ -15,8 +15,8 @@ TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
 # All include folders with header files
 INC	= inc/Airlines.h\
--Iunity/unity.h\
--Iunity/unity_internals.h\
+unity/unity.h\
+unity/unity_internals.h\
 
 #Library Inlcudes
 #INCLUDE_LIBS = 
