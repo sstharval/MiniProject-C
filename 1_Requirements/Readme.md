@@ -119,30 +119,30 @@ Global Distribution System or GDS.Airlines now gained over 60 percent of booking
 
 
 ## High Level Requirements: 
-| ID | Description | Category | Status | 
-| ----- | ----- | ------- | ---------|
-| HR01 | User shall be able to book their seats | Techincal | TBD-S1 | 
-| HR02 | User shall be able to view all reservations | Techincal | TBD-S1 |
-| HR03 | User shall be able to cancel reservation  | Techincal | TBD-S1 |
-| HR04 | User shall be able to produce new reservation and update | Techincal | TBD-S1 |
-| HR05 | User shall be able to save records and read from a file | Techincal | TBD-S1 |
-| HR06 | User shall be able to easily exit from screen| Techincal | TBD-S1 |
-| HR07 | User shall be able to easily book without log in page| Techincal | TBD-S1 |
+| ID | Description | Category |
+| ----- | ----- | ------- | 
+| HR01 | User shall be able to book their seats | Techincal | 
+| HR02 | User shall be able to view all reservations | Techincal | 
+| HR03 | User shall be able to cancel reservation  | Techincal |
+| HR04 | User shall be able to produce new reservation and update | Techincal | 
+| HR05 | User shall be able to save records and read from a file | Techincal |
+| HR06 | User shall be able to easily exit from screen| Techincal | Technical |
+| HR07 | User shall be able to easily book without log in page| Techincal | 
 
 
 
 
 ##  Low level Requirements:
  
-| ID | Description | Category | Status (Implemented/Future) |
-| ------ | --------- | ------ | ----- |
-| LR01 | First page will display options 1,2,3,4 for reservation,cancellation,Display & exit respectively,any number or characters other than 1-4 are invalid |Techincal| TBD-S1|
-| LR02 | Able to book with help of passport number,full name,email address, and destination | Techincal|TBD-S1 |
-| LR03 | Their seat will be alloted by the system itself | Techincal| TBD-S1 |
-| LR04 | Able to display record with all information given during reserving seat| Techincal | TBD-S1 |
-| LR05 | During cancellation only passport number is needed but it should be valid otherwise system will display invalid passport number| Techincal | TBD-S1 |
-| LR06 | System will save records to file and also able to cancel record if reservation is cancelled  | Techincal| TBD-S1 |
-| LR05 | Exit screen easily | HR05 | TBD-S1 |
-| LR06 | After exiting, message is prompted that all records are saved | Techincal| TBD-S1 |
+| ID | Description | Category | 
+| ------ | --------- | ------ |
+| LR01 | First page will display options 1,2,3,4 for reservation,cancellation,Display & exit respectively,any number or characters other than 1-4 are invalid |Techincal| 
+| LR02 | Able to book with help of passport number,full name,email address, and destination | Techincal|
+| LR03 | Their seat will be alloted by the system itself | Techincal|
+| LR04 | Able to display record with all information given during reserving seat| Techincal | 
+| LR05 | During cancellation only passport number is needed but it should be valid otherwise system will display invalid passport number| Techincal| 
+| LR06 | System will save records to file and also able to cancel record if reservation is cancelled  | Techincal| 
+| LR05 | Exit screen easily | Technical | 
+| LR06 | After exiting, message is prompted that all records are saved | Techincal| 
 
 
