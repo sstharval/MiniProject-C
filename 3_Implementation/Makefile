@@ -14,7 +14,7 @@ unity/unity.c\
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
 # All include folders with header files
-INC	= inc/Airlines.h
+INC	= inc/Airlines.h\
 -Iunity\unity.h
 
 #Library Inlcudes
