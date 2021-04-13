@@ -21,7 +21,7 @@ void tearDown()
 	char name[15];
     char destination[15];
 	int seat_num;
-	char email[21];
+	char email[25];
 	
 }stream;
 
