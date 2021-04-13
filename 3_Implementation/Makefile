@@ -9,7 +9,8 @@ SRC = src/Airlines.c\
 src/Airlines1.c\
 src/Airlines2.c\
 src/Airlines3.c\
-
+SRC1= src/Airlines.c\
+src/Airlines1.c\
 
 TEST_SRC = test/Test_Airlines.c \
 unity/unity.c 
@@ -52,7 +53,7 @@ doc:
 
 # Build and run the unit tests
 test:
-	gcc -I $(INC_H) -I $(INC_T) $(TEST_SRC) $(SRC) -o $(TEST_OUTPUT) $(INCLUDE_LIBS)
+	gcc -I $(INC_H) -I $(INC_T) $(TEST_SRC) $(SRC1) -o $(TEST_OUTPUT) $(INCLUDE_LIBS)
 	./$(TEST_OUTPUT)
 
 
