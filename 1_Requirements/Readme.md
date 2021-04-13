@@ -36,11 +36,6 @@ ARS offer a range of benefits, here are just a few of them:
 4.Easy cancellation and Refund Policies
 
 
-## Ageing -Time & Feature evolution
-| Time    | Feature |
-| -----   | -----   | 
-| NA      |         |
-
 ## Defining Our System Basic Requirements:
 1.Reservation of seat
 
