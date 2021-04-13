@@ -10,13 +10,16 @@ src/Airlines1.c\
 src/Airlines2.c\
 src/Airlines3.c\
 
-SRC1= src/Airlines.c\
+# All test source files
+TEST_SRC = src/Airlines.c\
 src/Airlines1.c\
+src/Airlines3.c\
+test/test.c\
+unity/unity.c\
 
-TEST_SRC = test/Test_Airlines.c \
-unity/unity.c 
-INC_H = inc
-INC_T = unity
+# All include folders with header files
+INC	= -Iinc\
+-Iunity\
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
@@ -27,7 +30,7 @@ unity/unity_internals.h\
 
 #Library Inlcudes
 #INCLUDE_LIBS = 
-INCLUDE_LIBS = -unit
+INCLUDE_LIBS = -lcunit
 
 # Project Output name
 PROJECT_OUTPUT= $(BUILD)/$(PROJECT_NAME).out
@@ -53,8 +56,8 @@ doc:
 	make -C ./documentation
 
 # Build and run the unit tests
-test:
-	gcc -I $(INC_H) -I $(INC_T) $(TEST_SRC) $(SRC1) -o $(TEST_OUTPUT) $(INCLUDE_LIBS)
+test:$(BUILD)
+	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) $(INCLUDE_LIBS)
 	./$(TEST_OUTPUT)
 
 
