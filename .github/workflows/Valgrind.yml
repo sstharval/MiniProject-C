@@ -14,10 +14,10 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: apt install dependency
-      run: |
+      run: 
         sudo apt-get -y install valgrind
         sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev 
     - name: make test
-      run: |
+      run: 
         make test -C MiniProject-C/3_Implementation/
         valgrind ./MiniProject-C/3_Implementation/build/ARS.out
