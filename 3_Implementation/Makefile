@@ -11,7 +11,7 @@ src/Airlines2.c\
 src/Airlines3.c\
 unity/unity.c
 
-TEST_SRC=test/Test_Airlines.c
+$TEST_SRC=test/Test_Airlines.c
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
