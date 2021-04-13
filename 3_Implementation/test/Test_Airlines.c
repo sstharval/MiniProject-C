@@ -4,6 +4,7 @@
 #include "unity_internals.h"
 
 
+
 /* Required by the unity test framework */
 void setUp()
 {
@@ -20,33 +21,46 @@ void tearDown()
 	char name[15];
     char destination[15];
 	int seat_num;
-	char email[15];
+	char email[21];
 	
-}
- *stream;
+}stream;
+
+
 
 
 
 void test_details(void)
 {
-strcpy(stream->passport,"1234");
-strcpy(stream->name,"isha");
-strcpy(stream->email,"ishavinita@hmail.com");
-strcpy(stream->destination,"Singapore");
-stream->seat_num=101;
-int num=1;
+strcpy(stream.passport,"1234");
+strcpy(stream.name,"isha");
+strcpy(stream.email,"ishavinita@gmail.com");
+strcpy(stream.destination,"Singapore");
 
-TEST_ASSERT_EQUAL_STRING("1234",stream->passport);
-TEST_ASSERT_EQUAL_STRING("isha",stream->name);
-TEST_ASSERT_EQUAL_STRING("1234",stream->passport);
-TEST_ASSERT_EQUAL_STRING("ishavinita@gmail.com",stream->email);
-TEST_ASSERT_EQUAL_STRING("Singapore",stream->destination);
+
+TEST_ASSERT_EQUAL_STRING("1234",stream.passport);
+TEST_ASSERT_EQUAL_STRING("isha",stream.name);
+TEST_ASSERT_EQUAL_STRING("ishavinita@gmail.com",stream.email);
+TEST_ASSERT_EQUAL_STRING("Singapore",stream.destination);
+
 
 
 }
 
+void test_dsiplay(void)
+{
+strcpy(stream.passport,"1234");
+strcpy(stream.name,"isha");
+strcpy(stream.email,"ishavinita@gmail.com");
+strcpy(stream.destination,"Singapore");
 
-    
+TEST_ASSERT_EQUAL_STRING("1234",stream.passport);
+TEST_ASSERT_EQUAL_STRING("isha",stream.name);
+TEST_ASSERT_EQUAL_STRING("ishavinita@gmail.com",stream.email);
+TEST_ASSERT_EQUAL_STRING("Singapore",stream.destination);
+
+
+
+}
 
 
 
@@ -59,6 +73,8 @@ int main()
 
     /* Run Test functions */
     RUN_TEST(test_details);
+    RUN_TEST(test_dsiplay);
+    
     
 
     /* Close the Unity Test Framework */
