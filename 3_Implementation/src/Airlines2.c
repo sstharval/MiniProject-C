@@ -6,7 +6,7 @@
 
 struct IndiGo_airline
 {
-	char passport[6];
+	char passport[10];
 	char name[15];
     char destination[15];
 	int seat_num;
