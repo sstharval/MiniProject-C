@@ -54,7 +54,7 @@ void reserve(int x)
 		printf("\n\t your seat number is: Seat A-%d", x);
 		stream->seat_num = x;
 		return;
-		free(stream);
+		
 		
 	}
 } 
