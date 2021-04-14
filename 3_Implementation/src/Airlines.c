@@ -77,7 +77,7 @@ void savefile()
 
 		fprintf(fpointer, "%-15s", stream->name);
 
-		fprintf(fpointer, "%-15s", stream->email);
+		fprintf(fpointer, "%-25s", stream->email);
 
         fprintf(fpointer, "%-15s", stream->destination);
 
