@@ -21,7 +21,7 @@ void details()
 	printf("\n\t Enter your  name:");
 	fgets(stream->name,15,stdin); 
 	printf("\n\t Enter your email address:");
-	fgets(stream->email,15,stdin); 
+	fgets(stream->email,25,stdin); 
     printf("\n\t Enter the Destination : ");
     fgets(stream->destination,15,stdin);
 }
