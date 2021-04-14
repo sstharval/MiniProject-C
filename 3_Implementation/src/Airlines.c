@@ -6,7 +6,7 @@
 
 struct IndiGo_airline
 {
-	char passport[6];
+	char passport[10];
 	char name[15];
     char destination[15];
 	int seat_num;
@@ -73,7 +73,7 @@ void savefile()
 	stream = begin;
 	while (stream)
 	{
-		fprintf(fpointer, "%-6s", stream->passport);
+		fprintf(fpointer, "%-10s", stream->passport);
 
 		fprintf(fpointer, "%-15s", stream->name);
 
@@ -93,7 +93,7 @@ void cancel()
 {
 	stream = begin;
 	system("cls");
-	char passport[6];
+	char passport[10];
 	printf("\n\n Enter passort number to delete record?:");
 	fgets(passport,6,stdin);
 	if (strcmp(begin->passport, passport) == 0)
