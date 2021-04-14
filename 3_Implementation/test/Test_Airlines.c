@@ -46,7 +46,7 @@ TEST_ASSERT_EQUAL_STRING("Singapore",stream.destination);
 
 }
 
-void test_dsiplay(void)
+void test_display(void)
 {
 strcpy(stream.passport,"1234");
 strcpy(stream.name,"isha");
@@ -73,7 +73,7 @@ int main()
 
     /* Run Test functions */
     RUN_TEST(test_details);
-    RUN_TEST(test_dsiplay);
+    RUN_TEST(test_display);
     
     
 
