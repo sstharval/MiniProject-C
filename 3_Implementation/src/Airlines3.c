@@ -20,7 +20,7 @@ void display()
 	{
 		printf("\n\n Passport Number : %-6s", stream->passport);
 		printf("\n         name : %-15s", stream->name);
-		printf("\n      email address: %-15s", stream->email);
+		printf("\n      email address: %-25s", stream->email);
 		printf("\n      Seat number: A-%d", stream->seat_num);
         printf("\n     Destination:%-15s", stream->destination);
 		printf("\n\n++*=====================================================*++");
